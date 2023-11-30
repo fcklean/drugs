@@ -1,0 +1,276 @@
+body, h1, h2, p, ul, li, form, input, textarea, button {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #222020;
+    color: #ffffff;
+}
+
+section {
+    margin: 0 auto;
+    width: 800px;
+}
+
+header {
+    background: url(https://storage.c7x.dev/one1side/website/bannerlauncher11.webp);
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 200px;
+    height: 140px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+nav>ul>a:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.image, nav>ul>a {
+    width: 117px;
+    height: 74px;
+}
+
+nav>ul>a {
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition: 1.2s;
+    transition: 1.2s;
+    text-decoration: none;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.image {
+    position: absolute;
+    opacity: 0;
+}
+
+div {
+    display: block;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+nav>ul>a {
+    float: left;
+    cursor: pointer;
+    text-align: center;
+    -webkit-transition: 1.2s;
+    transition: 1.2s;
+    text-decoration: none;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+nav>ul>a:hover .icon_effect {
+    opacity: 1;
+}
+
+.icon_effect, nav>ul>a:hover .icon_effect {
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+nav ul a:hover .ico {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+nav ul a .ico {
+    position: absolute;
+    display: block;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+nav ul a:hover b {
+    color: #ffbc62;
+}
+
+nav>ul>a>b {
+    position: relative;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+    background-color: rgba(0,0,0,.59);
+    padding: 6px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    border-radius: 12px;
+    font-family: Ubuntu;
+    text-decoration: none;
+}
+
+b {
+    font-weight: bold;
+}
+
+nav a.sub {
+    position: relative;
+}
+
+nav .sub-nav {
+    text-align: left;
+    position: absolute ;
+    background: url(https://loliland.ru/assets/img/sub-nav.png) repeat;
+    padding: 5px 18px;
+    width: 220px;
+    -webkit-box-shadow: 0 0 7px rgba(0,0,0,.8);
+    box-shadow: 0 0 7px rgba(0,0,0,.8);
+    z-index: 100;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 0;
+    visibility: hidden ;
+    -webkit-transform: skewX(5deg) translate(20px,20px);
+    transform: skewX(5deg) translate(20px,20px);
+    margin-left: 500px;
+    margin-top: 65px;
+}
+
+nav a.sub:hover + .sub-nav {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: skewX(0deg) translateY(0);
+    transform: skewX(0deg) translate(0);
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.icon_servers {
+    width: 68px;
+    height: 60px;
+    margin-top: -50px;
+    margin-left: 25px;
+    background: url(https://loliland.ru/assets/img/icons/servers.png) top;
+}
+
+.icon_donate {
+    width: 55px;
+    height: 63px;
+    margin-top: -60px;
+    margin-left: 31px;
+    background: url(https://loliland.ru/assets/img/icons/donate.png) top;
+}
+
+.icon_home {
+    width: 60px;
+    height: 52px;
+    margin-top: -50px;
+    margin-left: 31px;
+    background: url(https://loliland.ru/assets/img/icons/home.png) top;
+}
+
+.icon_effect {
+    position: absolute;
+    width: 116px;
+    height: 118px;
+    margin-top: -75px;
+    background: url(https://loliland.ru/assets/img/icons/effect.png) 50%;
+    opacity: 0;
+}
+
+.icon_rules {
+    width: 68px;
+    height: 68px;
+    margin-top: -60px;
+    margin-left: 24px;
+    background: url(https://loliland.ru/assets/img/icons/rules.png) top;
+}
+
+.icon_project {
+    width: 56px;
+    height: 56px;
+    margin-top: -52px;
+    margin-left: 31px;
+    background: url(https://loliland.ru/assets/img/icons/project.png) top;
+}
+
+.icon_help {
+    width: 73px;
+    height: 63px;
+    margin-top: -52px;
+    margin-left: 20px;
+    background: url(https://loliland.ru/assets/img/icons/help.png) top;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
